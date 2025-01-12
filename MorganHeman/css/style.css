@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20pxbgh;
+}
+.header{
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.header .part2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Main{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.Main .first{
+width: 400px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.Main .second{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+.first .part{
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+}
+.second .part{
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+}
+.part p{
+    margin-top: 6px;
+}
