@@ -1,54 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.App{
+
+.App {
+    height: 500px;
+    margin: 40px 300px;
     display: flex;
     flex-direction: column;
-    gap: 80px;
-    width: 800px;
-    margin: auto;
-    margin-top: 20pxbgh;
+    justify-content: space-between;
 }
-.header{
-display: flex;
-flex-direction: column;
-gap: 15px;
+
+.header {
+    display: flex;
+    flex-direction: column;
 }
-.header .part2{
+
+.header .part2 {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
-.Main{
+
+.part .Header * {
+    color: rgb(0, 89, 255);
+}
+
+.Main {
+    position: relative;
+    height: 400px;
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    margin-bottom: 100px;
 }
-.Main .first{
-width: 400px;
-display: flex;
-flex-direction: column;
-gap: 30px;
-}
-.Main .second{
-    width: 400px;
+
+.part {
+    height: 170px;
     display: flex;
     flex-direction: column;
-    gap: 30px; 
+    justify-content: space-evenly
 }
-.first .part{
-    display: flex;
-    flex-direction: column;
-    gap: 10px   ;
-}
-.second .part{
-    display: flex;
-    flex-direction: column;
-    gap: 10px   ;
-}
-.part p{
-    margin-top: 6px;
+
+.first::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 40px;
+    height: 100%;
+    width: 1px;
+    background-color: black
 }
